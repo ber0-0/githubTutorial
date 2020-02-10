@@ -1,2 +1,3 @@
 # githubTutorial
-introduction to github
+An introduction to GitHub.
+
