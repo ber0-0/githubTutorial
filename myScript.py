@@ -1,4 +1,11 @@
 import numpy as np
+import pandas as pd
 
-my_matrix = np.identity(4)
+
+n = input("Enter an integer:")
+
+for i in range(n):
+    print(n)
+
+my_matrix = np.identity(n)
 print(my_matrix)
