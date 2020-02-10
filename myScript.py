@@ -8,16 +8,12 @@ def my_func(matrix_1, matrix_2):
         print("Matrix size is not aligned!")
         return None
 
-my_matrix = np.identity(4)
-second_matrix = np.random.random(size=(4,4))
-
-print(my_func(my_matrix, second_matrix))
-
-
 #n = input("Enter an integer:")
 
 #for i in range(n):
 #    print(n)
 
+my_matrix = np.identity(5)
+second_matrix = np.random.random(size=(5,4))
 
-#print(my_matrix)
+print(my_matrix, second_matrix)
